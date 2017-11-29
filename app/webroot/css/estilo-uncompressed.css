@@ -1,0 +1,44 @@
+*{margin:0px;padding:0px;}
+a:hover{text-decoration:none;color:gray;}
+enviar{background-color:red;}
+.name{color:black;font-family:'Poiret One', cursive;font-size:30px;}
+.sticky{background-color:white;box-shadow:10px 2px 26px -3px rgba(0,0,0,0.75);}
+.nome_foto{font-family:'Poiret One', cursive;font-size:70px;}
+.frase{font-family:'Dosis';font-size:30px;}
+.navegacao{font-family:'Cinzel', serif;color:#FF6E44;font-size:18px;}
+.name:hover , .nome_foto:hover{color:#FF6E44;}
+.sessao{text-align:center;}
+.sessao p{text-align:left;}
+.icone{color:#FF6E44;}
+.rede_social:hover{color:#FF6E44;}
+.rede_social{color:gray;}
+.font{font-family:'Cinzel';font-size:20px;}
+.font2{font-family:'Dosis';}
+.sobre{font-family:'Dosis';font-size:16px;letter-spacing:2px;color:black;}
+.imagem_responsiva img:hover{opacity:0.75;-moz-opacity: 0.75;filter: alpha(opacity=75);-webkit-filter: opacity(0.75);/*filtro P/B*/filter: gray; /* IE6-9 */-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ *//*qualidade*/image-rendering: auto;}
+.curiosidades{font-family:'Dosis';font-size:18px;letter-spacing:2px;color:black;}
+.desc{font-size:18px;color:white;font-family:'Poiret One', cursive;}
+.lampada img{width:50%;height:auto;}
+.desc a {color: #fff; font-weight: bolder;}
+#rodape{background-color:#FF6E44;text-align:center;padding:20px;font-family:Josefin Sans;font-size:16px;}
+.sub-titulo{font-family: 'Josefin Sans'; font-size: 45px}
+.como_encontrar{font-family: 'Dosis'; font-size: 18px;}
+.laranja{color: #FF6E44;}
+.margin_bottom_10{margin-bottom: 10px;}
+.margin_bottom_20{margin-bottom: 20px;}
+.padding_15{padding: 15px;}
+.justificado {text-align: justify;}
+
+/* Media Screen */
+@media screen and (max-width:600px){.navegacao{font-size:16px;}
+.nome_foto{font-size:20px;}
+html{font-size:78%;}
+.btn{background-color:#FF6E44;}
+.lampada{width:34%;}
+.font{font-size:17px;}
+.icone{font-size:25px;}
+.imagem_responsiva{width:210px;height:auto;}
+}
+/* Plugins */
+#owl-demo .item{margin:10px auto;}
+#owl-demo .item img{display:block;width:auto;height:350px;}
